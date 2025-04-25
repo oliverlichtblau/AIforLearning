@@ -296,7 +296,7 @@ main {
     background: #f7f7f7;
   }
   .about-photo.profile-pic.desktop-only {
-    display: none;
+    display: none !important;
   }
 }
 
