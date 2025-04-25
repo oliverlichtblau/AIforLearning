@@ -597,3 +597,31 @@ body.modal-open > *:not(#feed-modal):not(script):not(style) {
   from { opacity: 0; transform: translateY(30px) scale(.97); }
   to { opacity: 1; transform: translateY(0) scale(1); }
 }
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 0.5rem;
+}
+.skills li {
+  background: none;
+  color: #232323;
+  font-weight: 600;
+  border: 1.3px solid #e2e2e2;
+  padding: 0.38rem 1.0rem;
+  border-radius: 1.6rem;
+  font-size: 0.89rem;
+  letter-spacing: 0.02em;
+  box-shadow: none;
+  margin: 0;
+  transition: background .2s, color .2s;
+}
+.skills li:hover {
+  background: #f7f7f7;
+  color: #232323;
+}
