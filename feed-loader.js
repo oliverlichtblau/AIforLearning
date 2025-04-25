@@ -1,41 +1,15 @@
-// Dieses Script lädt alle Markdown-Posts aus /feed-posts/, parst Metadaten und Inhalt und rendert die Feed-Kacheln dynamisch.
+// Dieses Script lädt jetzt feed-posts.json statt Directory-Listing
 // Es nutzt marked.js (CDN muss im HTML eingebunden sein)
 
 async function fetchFeedPosts() {
-  // 1. Hole die Dateiliste via fetch auf /feed-posts/
-  let files = [];
   try {
-    const res = await fetch('/feed-posts/');
-    const text = await res.text();
-    // Extrahiere .md-Dateinamen aus Directory-Listing (funktioniert mit einfachem Server wie python -m http.server)
-    files = Array.from(text.matchAll(/href="([^"]+\.md)"/g)).map(m => m[1]);
+    const res = await fetch('feed-posts.json');
+    if (!res.ok) throw new Error('feed-posts.json konnte nicht geladen werden');
+    return await res.json();
   } catch (e) {
     console.error('Feed-Posts konnten nicht geladen werden:', e);
     return [];
   }
-  // 2. Hole alle Beiträge
-  const posts = await Promise.all(files.map(async file => {
-    try {
-      const res = await fetch('/feed-posts/' + file);
-      const md = await res.text();
-      // Metadaten und Inhalt parsen
-      const metaMatch = md.match(/^---([\s\S]*?)---/);
-      let meta = {};
-      let body = md;
-      if (metaMatch) {
-        metaMatch[1].split('\n').forEach(line => {
-          const [key, ...rest] = line.split(':');
-          if (key && rest.length) meta[key.trim()] = rest.join(':').trim();
-        });
-        body = md.substring(metaMatch[0].length).trim();
-      }
-      return { ...meta, body, file };
-    } catch (e) {
-      return null;
-    }
-  }));
-  // Sortiere nach Datum absteigend
-  return posts.filter(Boolean).sort((a, b) => (b.date || '').localeCompare(a.date || ''));
 }
 
 function createFeedCard(post, idx) {
