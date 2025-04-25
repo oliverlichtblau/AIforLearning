@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feed – Oli</title>
+  <link rel="stylesheet" href="/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html" class="logo">Oli</a>
+    <div class="nav-links">
+      <a href="feed.html">Feed</a>
+      <a href="about.html">About</a>
+    </div>
+  </nav>
+  <main>
+    <section class="feed">
+      <h1>Feed</h1>
+      <div class="feed-list">
+        <div class="feed-card" data-feed-id="1">
+          <div class="feed-meta"><span class="feed-date">25.04.2025</span> · <span class="feed-cat">Tool-Idee</span></div>
+          <div class="feed-content">📢 Neue Tool-Idee: EduSheet AI – Arbeitsblattgenerator mit KI. Endlich können Lehrkräfte ... <span class="feed-readmore">Mehr lesen</span></div>
+        </div>
+        <div class="feed-card" data-feed-id="2">
+          <div class="feed-meta"><span class="feed-date">22.04.2025</span> · <span class="feed-cat">KI & Didaktik</span></div>
+          <div class="feed-content">🧠 Warum Explainable AI für Seniorenkurse wichtig ist. Viele Teilnehmende fragen ... <span class="feed-readmore">Mehr lesen</span></div>
+        </div>
+        <div class="feed-card" data-feed-id="3">
+          <div class="feed-meta"><span class="feed-date">18.04.2025</span> · <span class="feed-cat">Design</span></div>
+          <div class="feed-content">🎨 Canva-Mockup: GoLearn Cloud Dashboard. Das neue Design ... <span class="feed-readmore">Mehr lesen</span></div>
+        </div>
+        <div class="feed-card" data-feed-id="4">
+          <div class="feed-meta"><span class="feed-date">15.04.2025</span> · <span class="feed-cat">Reflexion</span></div>
+          <div class="feed-content">📚 Was ich diese Woche über KI in der Schule gelernt habe. Besonders spannend ... <span class="feed-readmore">Mehr lesen</span></div>
+        </div>
+      </div>
+      <div id="feed-modal" class="feed-modal">
+        <div class="feed-modal-content">
+          <span class="feed-modal-close" id="feed-modal-close">&times;</span>
+          <div id="feed-modal-body"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-links">Let’s connect
+      <a href="#" class="icon linkedin" aria-label="LinkedIn"></a>
+      <a href="#" class="icon github" aria-label="GitHub"></a>
+      <a href="mailto:oli@example.com" class="icon mail" aria-label="Mail"></a>
+    </div>
+    <div class="copyright"> 2025 Oliver Lichtblau – AI for Lifelong Learning</div>
+  </footer>
+  <script src="/main.js"></script>
+  <script src="/feed-modal.js"></script>
+</body>
+</html>
