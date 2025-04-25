@@ -269,7 +269,19 @@ main {
   justify-content: flex-end;
 }
 .about-photo.profile-pic.mobile-only { display: none; }
-.about-photo.profile-pic.desktop-only { display: block; }
+.about-photo.profile-pic.desktop-only {
+  width: 68px;
+  height: 68px;
+  min-width: 68px;
+  min-height: 68px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 12px 0 rgba(180,180,180,0.10);
+  border: none;
+  background: #f7f7f7;
+  display: block;
+  position: relative;
+}
 
 @media (max-width: 600px) {
   .about.about-main.about-horizontal {
