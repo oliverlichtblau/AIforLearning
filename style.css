@@ -284,7 +284,16 @@ main {
   }
   .about-photo.profile-pic.mobile-only {
     display: block;
-    margin: 0 auto 1.1rem auto;
+    margin: 0 auto 1.3rem auto;
+    width: 96px;
+    height: 96px;
+    min-width: 96px;
+    min-height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 12px 0 rgba(180,180,180,0.10);
+    border: none;
+    background: #f7f7f7;
   }
   .about-photo.profile-pic.desktop-only {
     display: none;
