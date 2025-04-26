@@ -166,13 +166,13 @@ main {
 .feed-list {
   display: flex;
   flex-direction: column;
-  gap: 0.9rem;
+  gap: 0.7rem;
 }
 .feed-card {
-  background: #f7f7f7;
+  background: #fcfcfc;
   border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  padding: 1.05rem 1.2rem;
+  box-shadow: none;
+  padding: 0.92rem 1.05rem;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -181,45 +181,48 @@ main {
   color: #232323;
   cursor: pointer;
   transition: box-shadow 0.16s, background 0.16s, transform 0.13s;
+  border: 1px solid #ececec;
 }
 .feed-card:hover {
+  background: #f7f7f7;
   box-shadow: 0 8px 32px 0 rgba(100,100,130,0.13), 0 1.5px 6px 0 rgba(180,180,180,0.12);
-  background: #f7faff;
   transform: translateY(-2px) scale(1.015);
 }
-.feed-title {
-  font-size: 1.02rem;
-  font-weight: 500;
-  color: #232323;
-  margin-bottom: 0.13em;
-  line-height: 1.24;
+.feed-section-title, .feed-section h1, .feed-section h2, .feed-section .main-title {
+  font-size: 1.03rem !important;
+  font-weight: 400 !important;
+  color: #888;
+  margin-bottom: 0.7rem;
+  letter-spacing: 0.01em;
+  text-transform: none;
 }
-.feed-content {
-  font-size: 0.98rem;
+.feed-title {
+  font-size: 0.99rem;
   font-weight: 400;
   color: #232323;
+  margin-bottom: 0.07em;
+  line-height: 1.22;
+  letter-spacing: 0.01em;
+}
+.feed-content {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #666;
   line-height: 1.6;
 }
 .feed-meta {
-  font-size: 0.91rem;
-  color: #888;
+  font-size: 0.89rem;
+  color: #bbb;
   font-weight: 400;
 }
 .feed-readmore {
   color: #6ec1e4;
-  font-size: 0.97em;
+  font-size: 0.96em;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-weight: 400;
   margin-left: 0.2em;
   text-decoration: underline dotted;
   cursor: pointer;
-}
-.feed-section-title, .feed-section h1, .feed-section h2, .feed-section .main-title {
-  font-size: 1.22rem !important;
-  font-weight: 600 !important;
-  color: #181818;
-  margin-bottom: 0.7rem;
-  letter-spacing: 0.01em;
 }
 
 .about.about-main.about-horizontal {
