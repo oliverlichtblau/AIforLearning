@@ -16,6 +16,7 @@ function createFeedCard(post, idx) {
   const teaser = post.body.split('\n')[0].replace(/[#*>`\-\[\]]/g, '').slice(0, 90) + '...';
   return `<div class="feed-card" data-feed-id="${idx}">
     <div class="feed-meta"><span class="feed-date">${post.date}</span> · <span class="feed-cat">${post.category || ''}</span></div>
+    <div class="feed-title" style="font-weight:700;font-size:1.08rem;color:#181818;margin-bottom:0.2em;">${post.title}</div>
     <div class="feed-content">${teaser} <span class="feed-readmore">Mehr lesen</span></div>
   </div>`;
 }
