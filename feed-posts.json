@@ -1,72 +1,79 @@
 [
   {
+    "date": "2025-04-26",
+    "category": "KI einfach erklärt",
+    "title": "Was ist ein Modellparameter?",
+    "body": "Modellparameter sind die kleinen Rädchen, die bestimmen, wie ein KI-Modell auf Eingaben reagiert.\n\nMan kann sie sich wie Stellschrauben vorstellen, die beim Training immer wieder neu justiert werden, damit die KI bessere Ergebnisse liefert.\n\n**Ein Beispiel:**  \nEine KI soll Bilder von Katzen und Hunden unterscheiden.  \nAnfangs sind die Parameter zufällig eingestellt. Erst durch das Training lernt die KI, **welche Details wichtig sind** – zum Beispiel spitze Ohren oder flauschiges Fell.\n\nJe komplexer das Modell, desto mehr Parameter werden benötigt.  \n**ChatGPT hat Milliarden solcher Parameter.**  \nGenau diese riesige Menge fein abgestimmter Werte sorgt dafür, dass KI-Modelle so flüssig und „intelligent“ wirken.\n\n**Kurz gesagt:**  \n- Modellparameter bestimmen, wie die KI auf Daten reagiert.  \n- Sie werden beim Training angepasst.  \n- Viele gut eingestellte Parameter = starke KI.",
+    "file": "2025-04-26-was-ist-ein-modellparameter.md"
+  },
+  {
     "date": "2025-04-25",
     "category": "KI einfach erklärt",
-    "title": "Was macht ChatGPT eigentlich so besonders?",
-    "body": "ChatGPT ist ein Sprachmodell – das bedeutet: Es wurde darauf trainiert, Muster in Texten zu erkennen und sinnvoll darauf zu reagieren.\n\nDer Trick: Es wurde nicht programmiert wie ein Taschenrechner, sondern **trainiert wie ein Kind**, das aus Millionen Gesprächen lernt.\n\nDeshalb kann es auf Fragen antworten, Texte schreiben, umformulieren – oder sogar Witze machen. Ob die gut sind, ist eine andere Frage. 😄",
-    "file": "2025-04-25-was-macht-chatgpt-so-besonders.md"
+    "title": "Braucht KI Strom? Und wie viel?",
+    "body": "Oh ja – und nicht wenig.\n\nDas Training großer KI-Modelle verbraucht **enorme Mengen Energie**, weil riesige Rechenzentren mit GPUs beteiligt sind.\n\nAuch jede einzelne Anfrage an ChatGPT verbraucht Strom – mehr als eine normale Google-Suche.\n\nDeshalb ist der nachhaltige Einsatz von KI ein wichtiges Zukunftsthema.  \n**Technik + Verantwortung gehören zusammen.**",
+    "file": "2025-04-25-braucht-ki-strom.md"
   },
   {
     "date": "2025-04-24",
     "category": "KI einfach erklärt",
-    "title": "Kann eine KI denken?",
-    "body": "Kurze Antwort: Nein.\n\nKI analysiert Daten, erkennt Muster und trifft Entscheidungen – **aber ohne echtes Bewusstsein**. Es denkt nicht, es **rechnet**. Und zwar ziemlich schlau.\n\nWas für uns nach „Denken“ aussieht, ist eine riesige mathematische Wahrscheinlichkeitsshow im Hintergrund.  \nOder anders gesagt: KI kann nicht denken – aber sie kann es gut **vortäuschen**.",
-    "file": "2025-04-24-kann-eine-ki-denken.md"
+    "title": "Wie unterscheidet sich ChatGPT von Siri?",
+    "body": "Siri ist eher ein Sprach-Assistent – sie arbeitet mit vordefinierten Antworten und kann einfache Aufgaben ausführen: Wecker stellen, Nachrichten lesen, etc.\n\nChatGPT ist ein Sprachmodell – es kann frei formulieren, kreativ sein und komplexe Zusammenhänge verstehen.\n\nSiri: **Menükarte.**  \nChatGPT: **Ein Koch, der improvisieren kann.**",
+    "file": "2025-04-24-unterschied-chatgpt-siri.md"
   },
   {
     "date": "2025-04-23",
     "category": "KI einfach erklärt",
-    "title": "Was ist eigentlich ein „Neuronales Netz“?",
-    "body": "Neuronale Netze sind wie das digitale Gegenstück zu unserem Gehirn. Sie bestehen aus vielen kleinen „Knotenpunkten“ – ähnlich wie Nervenzellen –, die Informationen weiterleiten, bewerten und daraus lernen.\n\nWenn du ein Foto von einer Katze hochlädst, analysiert das Netz tausende Merkmale (Ohrenform, Augen, Fell) und vergleicht sie mit bekannten Beispielen. So entsteht das „Verständnis“, dass es sich um eine Katze handelt – ganz ohne dass jemand die Regeln dafür programmiert hat.\n\nKlingt magisch? Ist Mathe. Aber coole Mathe.",
-    "file": "2025-04-23-was-ist-ein-neuronales-netz.md"
+    "title": "Was macht ChatGPT eigentlich so besonders?",
+    "body": "ChatGPT ist ein Sprachmodell – das bedeutet: Es wurde darauf trainiert, Muster in Texten zu erkennen und sinnvoll darauf zu reagieren.\n\nDer Trick: Es wurde nicht programmiert wie ein Taschenrechner, sondern **trainiert wie ein Kind**, das aus Millionen Gesprächen lernt.\n\nDeshalb kann es auf Fragen antworten, Texte schreiben, umformulieren – oder sogar Witze machen. Ob die gut sind, ist eine andere Frage. 😄",
+    "file": "2025-04-23-was-macht-chatgpt-so-besonders.md"
   },
   {
     "date": "2025-04-22",
     "category": "KI einfach erklärt",
-    "title": "Was bedeutet „KI ist trainiert“?",
-    "body": "Training bedeutet bei KI: Sie wird mit Daten gefüttert, um aus diesen Beispielen Regeln und Muster zu erkennen.\n\nBeispiel: Wenn du einer KI tausende Fotos von Hunden zeigst, lernt sie irgendwann selbstständig zu unterscheiden: „Das ist ein Hund“ vs. „Das ist ein Muffin“.  \nJa, das ist ein echtes Beispiel. 🐶🧁\n\nAber: Nur so gut wie die Daten. Schlechtes Training = schlechte KI.",
-    "file": "2025-04-22-was-bedeutet-ki-ist-trainiert.md"
+    "title": "Wie entstehen Halluzinationen bei KI?",
+    "body": "Wenn eine KI etwas „halluziniert“, meint das: Sie erfindet Inhalte, die nicht stimmen – klingt absurd, passiert aber.\n\nWarum? Weil die KI nicht weiß, **was wahr ist**, sondern nur **was wahrscheinlich passt**.\n\nWenn sie z. B. gefragt wird: „Was hat Goethe auf TikTok gepostet?“ … dann liefert sie trotzdem eine Antwort – obwohl die Frage keinen Sinn ergibt. 🤯\n\nFazit: Immer selbst denken. KI ist kein Orakel.",
+    "file": "2025-04-22-wie-entstehen-halluzinationen-bei-ki.md"
   },
   {
     "date": "2025-04-21",
     "category": "KI einfach erklärt",
-    "title": "Was ist ein Prompt?",
-    "body": "Ein Prompt ist das, was du in eine KI wie ChatGPT eingibst – also deine **Anfrage** oder dein **Befehl**.\n\nBeispiel:  \n> „Erkläre mir Photosynthese in 3 Sätzen für eine 5. Klasse.“\n\nGute Prompts führen zu guten Ergebnissen. Deshalb sagt man auch:  \n**Prompting ist die neue Superkraft.**",
-    "file": "2025-04-21-was-ist-ein-prompt.md"
+    "title": "Lernen KI-Modelle ständig dazu?",
+    "body": "Nein – zumindest nicht automatisch.\n\nModelle wie ChatGPT lernen **nicht live mit**. Sie sind auf einem bestimmten Wissensstand eingefroren (z. B. Anfang 2024) und aktualisieren sich erst mit einem neuen Training.\n\nAber es gibt Ausnahmen: Einige Systeme können live dazulernen – mit deiner Zustimmung. Das nennt man dann „Fine-Tuning“ oder „Reinforcement Learning“.\n\nKurz: Nicht jede KI ist neugierig. 😉",
+    "file": "2025-04-21-lernen-ki-modelle-staendig-dazu.md"
   },
   {
     "date": "2025-04-20",
     "category": "KI einfach erklärt",
-    "title": "Lernen KI-Modelle ständig dazu?",
-    "body": "Nein – zumindest nicht automatisch.\n\nModelle wie ChatGPT lernen **nicht live mit**. Sie sind auf einem bestimmten Wissensstand eingefroren (z. B. Anfang 2024) und aktualisieren sich erst mit einem neuen Training.\n\nAber es gibt Ausnahmen: Einige Systeme können live dazulernen – mit deiner Zustimmung. Das nennt man dann „Fine-Tuning“ oder „Reinforcement Learning“.\n\nKurz: Nicht jede KI ist neugierig. 😉",
-    "file": "2025-04-20-lernen-ki-modelle-staendig-dazu.md"
+    "title": "Kann eine KI denken?",
+    "body": "Kurze Antwort: Nein.\n\nKI analysiert Daten, erkennt Muster und trifft Entscheidungen – **aber ohne echtes Bewusstsein**. Es denkt nicht, es **rechnet**. Und zwar ziemlich schlau.\n\nWas für uns nach „Denken“ aussieht, ist eine riesige mathematische Wahrscheinlichkeitsshow im Hintergrund.  \nOder anders gesagt: KI kann nicht denken – aber sie kann es gut **vortäuschen**.",
+    "file": "2025-04-20-kann-eine-ki-denken.md"
   },
   {
     "date": "2025-04-19",
     "category": "KI einfach erklärt",
-    "title": "Was ist der Unterschied zwischen KI und Machine Learning?",
-    "body": "**Künstliche Intelligenz (KI)** ist der Oberbegriff für Systeme, die Aufgaben erledigen, die menschliche Intelligenz erfordern würden.\n\n**Machine Learning** (ML) ist ein Teil davon – eine Methode, mit der Maschinen durch Daten lernen.\n\nOder wie man sagen könnte:  \n> **KI ist das Ziel. ML ist der Weg.**",
-    "file": "2025-04-19-unterschied-ki-machine-learning.md"
+    "title": "Was ist ein Prompt?",
+    "body": "Ein Prompt ist das, was du in eine KI wie ChatGPT eingibst – also deine **Anfrage** oder dein **Befehl**.\n\nBeispiel:  \n> „Erkläre mir Photosynthese in 3 Sätzen für eine 5. Klasse.“\n\nGute Prompts führen zu guten Ergebnissen. Deshalb sagt man auch:  \n**Prompting ist die neue Superkraft.**",
+    "file": "2025-04-19-was-ist-ein-prompt.md"
   },
   {
     "date": "2025-04-18",
     "category": "KI einfach erklärt",
-    "title": "Wie entstehen Halluzinationen bei KI?",
-    "body": "Wenn eine KI etwas „halluziniert“, meint das: Sie erfindet Inhalte, die nicht stimmen – klingt absurd, passiert aber.\n\nWarum? Weil die KI nicht weiß, **was wahr ist**, sondern nur **was wahrscheinlich passt**.\n\nWenn sie z. B. gefragt wird: „Was hat Goethe auf TikTok gepostet?“ … dann liefert sie trotzdem eine Antwort – obwohl die Frage keinen Sinn ergibt. 🤯\n\nFazit: Immer selbst denken. KI ist kein Orakel.",
-    "file": "2025-04-18-wie-entstehen-halluzinationen-bei-ki.md"
+    "title": "Was bedeutet „KI ist trainiert“?",
+    "body": "Training bedeutet bei KI: Sie wird mit Daten gefüttert, um aus diesen Beispielen Regeln und Muster zu erkennen.\n\nBeispiel: Wenn du einer KI tausende Fotos von Hunden zeigst, lernt sie irgendwann selbstständig zu unterscheiden: „Das ist ein Hund“ vs. „Das ist ein Muffin“.  \nJa, das ist ein echtes Beispiel. 🐶🧁\n\nAber: Nur so gut wie die Daten. Schlechtes Training = schlechte KI.",
+    "file": "2025-04-18-was-bedeutet-ki-ist-trainiert.md"
   },
   {
     "date": "2025-04-17",
     "category": "KI einfach erklärt",
-    "title": "Braucht KI Strom? Und wie viel?",
-    "body": "Oh ja – und nicht wenig.\n\nDas Training großer KI-Modelle verbraucht **enorme Mengen Energie**, weil riesige Rechenzentren mit GPUs beteiligt sind.\n\nAuch jede einzelne Anfrage an ChatGPT verbraucht Strom – mehr als eine normale Google-Suche.\n\nDeshalb ist der nachhaltige Einsatz von KI ein wichtiges Zukunftsthema.  \n**Technik + Verantwortung gehören zusammen.**",
-    "file": "2025-04-17-braucht-ki-strom.md"
+    "title": "Was ist eigentlich ein „Neuronales Netz“?",
+    "body": "Neuronale Netze sind wie das digitale Gegenstück zu unserem Gehirn. Sie bestehen aus vielen kleinen „Knotenpunkten“ – ähnlich wie Nervenzellen –, die Informationen weiterleiten, bewerten und daraus lernen.\n\nWenn du ein Foto von einer Katze hochlädst, analysiert das Netz tausende Merkmale (Ohrenform, Augen, Fell) und vergleicht sie mit bekannten Beispielen. So entsteht das „Verständnis“, dass es sich um eine Katze handelt – ganz ohne dass jemand die Regeln dafür programmiert hat.\n\nKlingt magisch? Ist Mathe. Aber coole Mathe.",
+    "file": "2025-04-17-was-ist-ein-neuronales-netz.md"
   },
   {
     "date": "2025-04-16",
     "category": "KI einfach erklärt",
-    "title": "Wie unterscheidet sich ChatGPT von Siri?",
-    "body": "Siri ist eher ein Sprach-Assistent – sie arbeitet mit vordefinierten Antworten und kann einfache Aufgaben ausführen: Wecker stellen, Nachrichten lesen, etc.\n\nChatGPT ist ein Sprachmodell – es kann frei formulieren, kreativ sein und komplexe Zusammenhänge verstehen.\n\nSiri: **Menükarte.**  \nChatGPT: **Ein Koch, der improvisieren kann.**",
-    "file": "2025-04-16-unterschied-chatgpt-siri.md"
+    "title": "Was ist der Unterschied zwischen KI und Machine Learning?",
+    "body": "**Künstliche Intelligenz (KI)** ist der Oberbegriff für Systeme, die Aufgaben erledigen, die menschliche Intelligenz erfordern würden.\n\n**Machine Learning** (ML) ist ein Teil davon – eine Methode, mit der Maschinen durch Daten lernen.\n\nOder wie man sagen könnte:  \n> **KI ist das Ziel. ML ist der Weg.**",
+    "file": "2025-04-16-unterschied-ki-machine-learning.md"
   }
 ]
