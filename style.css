@@ -163,61 +163,60 @@ main {
   color: #232323;
 }
 
+.feed-section-title, .feed-section h1, .feed-section h2, .feed-section .main-title {
+  font-size: 1.10rem !important;
+  font-weight: 500 !important;
+  color: #222;
+  margin-bottom: 0.35rem;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
 .feed-list {
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
+  margin-top: 0.2rem;
 }
 .feed-card {
-  background: #fcfcfc;
-  border-radius: var(--radius);
-  box-shadow: none;
-  padding: 0.92rem 1.05rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  font-size: 0.95rem;
-  line-height: 1.6;
-  color: #232323;
-  cursor: pointer;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px 0 rgba(180,180,180,0.05);
+  padding: 0.98rem 1.12rem 0.92rem 1.12rem;
+  border: none;
+  margin: 0;
+  font-size: 0.98rem;
   transition: box-shadow 0.16s, background 0.16s, transform 0.13s;
-  border: 1px solid #ececec;
 }
 .feed-card:hover {
   background: #f7f7f7;
-  box-shadow: 0 8px 32px 0 rgba(100,100,130,0.13), 0 1.5px 6px 0 rgba(180,180,180,0.12);
-  transform: translateY(-2px) scale(1.015);
-}
-.feed-section-title, .feed-section h1, .feed-section h2, .feed-section .main-title {
-  font-size: 1.03rem !important;
-  font-weight: 400 !important;
-  color: #888;
-  margin-bottom: 0.7rem;
-  letter-spacing: 0.01em;
-  text-transform: none;
+  box-shadow: 0 8px 32px 0 rgba(100,100,130,0.10), 0 1.5px 6px 0 rgba(180,180,180,0.10);
+  transform: translateY(-2px) scale(1.012);
 }
 .feed-title {
-  font-size: 0.99rem;
-  font-weight: 400;
-  color: #232323;
+  font-size: 1.06rem;
+  font-weight: 500;
+  color: #181818;
   margin-bottom: 0.07em;
   line-height: 1.22;
   letter-spacing: 0.01em;
 }
 .feed-content {
-  font-size: 0.95rem;
+  font-size: 0.99rem;
   font-weight: 400;
-  color: #666;
+  color: #232323;
   line-height: 1.6;
 }
 .feed-meta {
-  font-size: 0.89rem;
-  color: #bbb;
+  font-size: 0.92rem;
+  color: #888;
   font-weight: 400;
 }
 .feed-readmore {
   color: #6ec1e4;
-  font-size: 0.96em;
+  font-size: 0.97em;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-weight: 400;
   margin-left: 0.2em;
