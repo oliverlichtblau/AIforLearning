@@ -1,15 +1,26 @@
 document.addEventListener("DOMContentLoaded", function() {
   const desc = document.querySelector('.about-desc');
   if (!desc) return;
-  const text = desc.textContent;
-  desc.textContent = '';
+  const html = desc.innerHTML;
+  desc.innerHTML = '';
   desc.style.whiteSpace = 'pre-line';
   let i = 0;
+
   function typeLetter() {
-    if (i <= text.length) {
-      desc.textContent = text.slice(0, i);
+    // HTML-Tag-Parsing: Wir geben immer ein valides HTML-Snippet aus
+    let openTags = [];
+    let out = '';
+    let inTag = false;
+    for (let j = 0; j < i; j++) {
+      const char = html[j];
+      out += char;
+      if (char === '<') inTag = true;
+      if (char === '>' && inTag) inTag = false;
+    }
+    desc.innerHTML = out;
+    if (i < html.length) {
       i++;
-      setTimeout(typeLetter, text[i-1] === '\n' ? 250 : 22);
+      setTimeout(typeLetter, html[i-1] === '\n' ? 250 : 22);
     }
   }
   typeLetter();
