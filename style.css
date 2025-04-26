@@ -623,3 +623,24 @@ body.modal-open > *:not(#feed-modal):not(script):not(style) {
   background: #f7f7f7;
   color: #232323;
 }
+
+@media (min-width: 601px) {
+  .about-photo.profile-pic.desktop-only {
+    width: 112px;
+    height: 112px;
+    min-width: 112px;
+    min-height: 112px;
+    margin-left: 2.5rem;
+    margin-right: 0;
+    box-shadow: 0 4px 24px 0 rgba(180,180,180,0.13);
+    transition: width 0.18s, height 0.18s, box-shadow 0.18s;
+  }
+  .about-right {
+    align-items: flex-start;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    min-width: 120px;
+    margin-left: 1.5rem;
+  }
+}
